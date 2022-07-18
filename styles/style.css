@@ -5,6 +5,12 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
+  margin: 0;
+}
+
+header{
+    background-color: #562EFF;
+    height: 94px;
 }
 .container {
   background-color: #ffffff;
@@ -24,7 +30,50 @@ main {
   align-items: center;
 }
 
+/* header area */
+
+#nav-area{
+    display: flex;
+    justify-content: center;
+}
+.logo-menue-user{
+    display: flex;
+    width: 870px;
+    justify-content: space-between;
+    margin-top: 18px;
+    align-items: center;
+}
+.logo-area{
+    display: flex;
+    align-items: center;
+}
+.logo-area img{
+    width: 40px;
+    height: 51px;
+    color: #FFFFFF; 
+    margin-right: 15px;
+}
+.idea a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF; 
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 35px;
+}
+
 /* top player style */
+
 .top-players {
   margin-bottom: 28px;
 }
@@ -100,6 +149,9 @@ Courses Styles
 
 .course{
     padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #fafafa;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));  
 }
 
 .course .course-banner img{
